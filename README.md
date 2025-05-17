@@ -77,36 +77,27 @@ Avant d'installer le projet, assurez-vous d'avoir les éléments suivants :
 - **MySQL** : Base de données pour stocker les informations.
 
 
-
-
-
-
-
-
-
-
-
 ---
 
 ##Installation
 
 1. **Cloner le référentiel**
    ```bash
-   DÉPÔT git clone
-   cd écoride
+   git clone [REPOSITORIO](https://github.com/joserogaral/ECF0525Ecoride/tree/main)
+   cd ecoride
 
 
 2. Configurer la base de données
-Importer le fichier BDD.sql sur votre serveur MySQL pour créer les tables nécessaires.
-Assurez-vous que le fichier Interactiondb.php disposer des informations d'identification correctes pour vous connecter à la base de données.
+	Importer le fichier BDD.sql sur votre serveur MySQL pour créer les tables nécessaires.
+	Assurez-vous que le fichier Interactiondb.php disposer des informations d'identification correctes pour vous connecter à la base de données.
 
 3. Installer les dépendances :
 
-	INSTALLATION DU NPM
+	nmp install
 
 4.- Démarrez le serveur de développement : 
 
-	DÉBUT DU MNP
+	npm start
 
 5.- Configurez le backend :
 
@@ -117,17 +108,17 @@ Placez le fichier Interactiondb.php dans le répertoire de votre serveur Web (pa
 Utiliser
 
 1.- Enregistrer<br>
-Accès à /Inscription pour enregistrer un nouvel utilisateur.<br>
+	Accès à /Inscription pour enregistrer un nouvel utilisateur.<br>
 2.- Connexion<br>
-Accès à /Rapport pour vous connecter.<br>
+	Accès à /Rapport pour vous connecter.<br>
 3.- Rechercher des voyages<br>
-Accès à /Covoiturage pour rechercher les voyages disponibles.<br>
+	Accès à /Covoiturage pour rechercher les voyages disponibles.<br>
 4.- Créer des voyages<br>
-Accès à /Addcovoi pour créer un nouveau voyage en tant que conducteur.<br>
+	Accès à /Addcovoi pour créer un nouveau voyage en tant que conducteur.<br>
 5.- Consulter l'historique<br>
-Accès à /Historique pour consulter l'historique des voyages effectués ou réservés.<br>
+	Accès à /Historique pour consulter l'historique des voyages effectués ou réservés.<br>
 6.- Contacter l'assistance<br>
-Accès à /Contact pour envoyer un message à l'équipe d'assistance.<br>
+	Accès à /Contact pour envoyer un message à l'équipe d'assistance.<br>
 
 
 
@@ -163,23 +154,23 @@ Points de terminaison de l'API
 Principaux paramètres
 
 1.- Inscription des utilisateurs<br>
-POST /?adduser=1<br>
-Paramètres : { nom, prenom, pseudo, email, password_id, telephone, adresse, date_naissance }<br>
+	POST /?adduser=1<br>
+	Paramètres : { nom, prenom, pseudo, email, password_id, telephone, adresse, date_naissance }<br>
 2.- Se connecter<br>
-POST /?login=1<br>
-Paramètres : { e-mail, mot de passe }<br>
+	POST /?login=1<br>
+	Paramètres : { e-mail, mot de passe }<br>
 3.- Rechercher des voyages<br>
-OBTENIR /?getCombinedData=1<br>
-Paramètres : { ville_départ, ville_arrivée, date_départ, nb_place }<br>
+	OBTENIR /?getCombinedData=1<br>
+	Paramètres : { ville_départ, ville_arrivée, date_départ, nb_place }<br>
 4.- Créer un voyage<br>
-POST /?addCovoiturage=1<br>
-Paramètres : { ville_depart, ville_arrive, heure_depart, heure_arrive, date_depart, date_arrive, descrip, prix, nb_place, fumeur, animaux, voyeco, user_id, pseudo }<br>
+	POST /?addCovoiturage=1<br>
+	Paramètres : { ville_depart, ville_arrive, heure_depart, heure_arrive, date_depart, date_arrive, descrip, prix, nb_place, fumeur, animaux, voyeco, user_id, pseudo }<br>
 5.- Siège de réserve<br>
-POST /?reserveSeat=1<br>
-Paramètres : { user_id, covoiturage_id }<br>
+	POST /?reserveSeat=1<br>
+	Paramètres : { user_id, covoiturage_id }<br>
 6.- Historique de l'utilisateur<br>
-GET /?getUserHistory=1<br>
-Paramètres : { ID de l'utilisateur }<br>
+	GET /?getUserHistory=1<br>
+	Paramètres : { ID de l'utilisateur }<br>
 
 
 
