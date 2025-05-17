@@ -162,24 +162,24 @@ Points de terminaison de l'API
 
 Principaux paramètres
 
-1.- Inscription des utilisateurs
-POST /?adduser=1
-Paramètres : { nom, prenom, pseudo, email, password_id, telephone, adresse, date_naissance }
-2.- Se connecter
-POST /?login=1
-Paramètres : { e-mail, mot de passe }
-3.- Rechercher des voyages
-OBTENIR /?getCombinedData=1
-Paramètres : { ville_départ, ville_arrivée, date_départ, nb_place }
-4.- Créer un voyage
-POST /?addCovoiturage=1
-Paramètres : { ville_depart, ville_arrive, heure_depart, heure_arrive, date_depart, date_arrive, descrip, prix, nb_place, fumeur, animaux, voyeco, user_id, pseudo }
-5.- Siège de réserve
-POST /?reserveSeat=1
-Paramètres : { user_id, covoiturage_id }
-6.- Historique de l'utilisateur
-GET /?getUserHistory=1
-Paramètres : { ID de l'utilisateur }
+1.- Inscription des utilisateurs<br>
+POST /?adduser=1<br>
+Paramètres : { nom, prenom, pseudo, email, password_id, telephone, adresse, date_naissance }<br>
+2.- Se connecter<br>
+POST /?login=1<br>
+Paramètres : { e-mail, mot de passe }<br>
+3.- Rechercher des voyages<br>
+OBTENIR /?getCombinedData=1<br>
+Paramètres : { ville_départ, ville_arrivée, date_départ, nb_place }<br>
+4.- Créer un voyage<br>
+POST /?addCovoiturage=1<br>
+Paramètres : { ville_depart, ville_arrive, heure_depart, heure_arrive, date_depart, date_arrive, descrip, prix, nb_place, fumeur, animaux, voyeco, user_id, pseudo }<br>
+5.- Siège de réserve<br>
+POST /?reserveSeat=1<br>
+Paramètres : { user_id, covoiturage_id }<br>
+6.- Historique de l'utilisateur<br>
+GET /?getUserHistory=1<br>
+Paramètres : { ID de l'utilisateur }<br>
 
 
 
