@@ -134,28 +134,28 @@ Accès à /Contact pour envoyer un message à l'équipe d'assistance.
 
 Structure du projet
 
-/Applications/XAMPP/xamppfiles/htdocs/ECF0624/
-├── exemple/
-│ ├── src/
-│ │ ├── Composants/
-│ │ │ ├── [Addcovoi.js](http://_vscodecontentref_/0)
-│ │ │ ├── [Connexion.js](http://_vscodecontentref_/1)
-│ │ │ ├── [Contact.js](http://_vscodecontentref_/2)
-│   │   │   ├── [Covoiturages.js](http://_vscodecontentref_/3)
-│ │ │ ├── [Headeruser.js](http://_vscodecontentref_/4)
-│   │   │   ├── [Historique.js](http://_vscodecontentref_/5)
-│ │ │ ├── [listsearch.js](http://_vscodecontentref_/6)
-│ │ │ ├── [qns.js](http://_vscodecontentref_/7)
-│ │ │ ├── [Registration.js](http://_vscodecontentref_/8)
-│ │ │ ├── [cf.js](http://_vscodecontentref_/9)
-│ │ ├── DB/
-│ │ │ ├── [BDD.sql](http://_vscodecontentref_/10)
-│ │ │ ├── [Interactiondb.php](http://_vscodecontentref_/11)
-│ │ ├── Images/
-│ │ ├── [App.js](http://_vscodecontentref_/12)
-│ │ ├── index.js
-│ ├── public/
-│ ├── package.json
+/Applications/XAMPP/xamppfiles/htdocs/ECF0624/ <br>
+├── exemple/<br>
+│ ├── src/<br>
+│ │ ├── Composants/<br>
+│ │ │ ├── [Addcovoi.js](http://_vscodecontentref_/0)<br>
+│ │ │ ├── [Connexion.js](http://_vscodecontentref_/1)<br>
+│ │ │ ├── [Contact.js](http://_vscodecontentref_/2)<br>
+│   │   │   ├── [Covoiturages.js](http://_vscodecontentref_/3)<br>
+│ │ │ ├── [Headeruser.js](http://_vscodecontentref_/4)<br>
+│   │   │   ├── [Historique.js](http://_vscodecontentref_/5)<br>
+│ │ │ ├── [listsearch.js](http://_vscodecontentref_/6)<br>
+│ │ │ ├── [qns.js](http://_vscodecontentref_/7)<br>
+│ │ │ ├── [Registration.js](http://_vscodecontentref_/8)<br>
+│ │ │ ├── [cf.js](http://_vscodecontentref_/9)<br>
+│ │ ├── DB/<br>
+│ │ │ ├── [BDD.sql](http://_vscodecontentref_/10)<br>
+│ │ │ ├── [Interactiondb.php](http://_vscodecontentref_/11)<br>
+│ │ ├── Images/<br>
+│ │ ├── [App.js](http://_vscodecontentref_/12)<br>
+│ │ ├── index.js<br>
+│ ├── public/<br>
+│ ├── package.json<br>
 
 
 Points de terminaison de l'API
