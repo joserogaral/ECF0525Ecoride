@@ -116,18 +116,18 @@ Placez le fichier Interactiondb.php dans le répertoire de votre serveur Web (pa
 
 Utiliser
 
-1.- Enregistrer
-Accès à /Inscription pour enregistrer un nouvel utilisateur.
-2.- Connexion
-Accès à /Rapport pour vous connecter.
-3.- Rechercher des voyages
-Accès à /Covoiturage pour rechercher les voyages disponibles.
-4.- Créer des voyages
-Accès à /Addcovoi pour créer un nouveau voyage en tant que conducteur.
-5.- Consulter l'historique
-Accès à /Historique pour consulter l'historique des voyages effectués ou réservés.
-6.- Contacter l'assistance
-Accès à /Contact pour envoyer un message à l'équipe d'assistance.
+1.- Enregistrer<br>
+Accès à /Inscription pour enregistrer un nouvel utilisateur.<br>
+2.- Connexion<br>
+Accès à /Rapport pour vous connecter.<br>
+3.- Rechercher des voyages<br>
+Accès à /Covoiturage pour rechercher les voyages disponibles.<br>
+4.- Créer des voyages<br>
+Accès à /Addcovoi pour créer un nouveau voyage en tant que conducteur.<br>
+5.- Consulter l'historique<br>
+Accès à /Historique pour consulter l'historique des voyages effectués ou réservés.<br>
+6.- Contacter l'assistance<br>
+Accès à /Contact pour envoyer un message à l'équipe d'assistance.<br>
 
 
 
