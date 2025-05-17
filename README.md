@@ -18,8 +18,6 @@
 
 - [Points de terminaison de l'API](#api-endpoints)
 
-- [Technologies utilisées](#technologies-utilisées)
-
 - [Contributions](#contributions)
 
 - [Licence](#licence)
